@@ -3,4 +3,4 @@
 This is the pinteresting-like application using Rails.
 
 
-by [Jules Wei] 
+by [Julia Wei] 
