@@ -42,7 +42,7 @@
           
           <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
         <% else %>
-          <li><%= link_to "Sign in"<span class="glyphicon glyphicon-lock"></span>, new_user_session_path %><span class="glyphicon glyphicon-lock"></span></li>
+          <li><%= link_to "Sign in", new_user_session_path %><span class="glyphicon glyphicon-lock"></span></li>
         <% end %>
     </ul>
 
