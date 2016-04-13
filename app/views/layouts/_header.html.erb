@@ -36,17 +36,17 @@
           
           <li>
             <%= link_to edit_user_registration_path do %>
-            <span class="glyphicon glyphicon-lock"></span>Account Settings
+            <span class="glyphicon glyphicon-lock"></span> Account Settings
             <%end%>
           </li>        
           
           <li><%= link_to destroy_user_session_path, method: :delete do %>
-            <i class="fa fa-arrow-circle-right"></i>Log Out
+            Log Out <i class="fa fa-arrow-circle-right"></i>
             <% end %>
           </li>
         <% else %>
           <li><%= link_to new_user_session_path do%>
-            <i class="fa fa-user"></i>Login
+            <i class="fa fa-user"></i> Login
           <%end%>
           </li>
         <% end %>
